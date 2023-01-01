@@ -1,0 +1,134 @@
+.cardDetails {
+  width: 62%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  padding-top: 10px;
+  margin-top: 20px;
+  /* background-color: blue; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.cardDetails-header {
+  text-align: center;
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.cardDetails-header>h1{
+    width: 62%;
+    margin-left: 350px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.cardDetails-img > img {
+  width: 300px;
+  height: 220px;
+  margin-right:50px;
+  padding-bottom: 6px;
+  
+}
+
+.cardDetails-items>p{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+
+
+.card-restaurant{
+    margin-right: 40px;
+}
+ 
+.card-price{
+    margin-right: 150px;
+    
+}
+
+.card-total{
+    margin-right: 150px;
+}
+
+.cardDetails-rating{
+    display: flex;
+    flex-direction: column;
+}
+
+.rating>span{
+background-color: green;
+padding: 3px;
+border-radius: 6px;
+color: white;
+}
+.rating{
+    margin-bottom: 40px;
+    margin-left:-190px;
+    font-weight: 600; 
+}
+
+.review-order{
+    margin-left:9px;
+    margin-bottom: 40px;
+}
+
+.remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: -190px;
+
+}
+ .delete{
+top: 10px;
+margin-right: 10px;
+cursor: pointer;
+color: red;
+ }
+
+.delete:hover{
+    color:green;
+
+}
+
+.deciInc-card{
+    width: 100px;
+    margin:15px ;
+    margin-left: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: #ddd;
+    color: #111;
+}
+
+.symbol{
+    font-size: 24px;
+}
+
+.quntsymbol{
+    font-size: 22px;
+}
+
+.symbols{
+    font-size: 22px;
+}
+
+
+    @media (max-width:700px){
+        .cardDetails{
+            display: block;
+         
+              
+            
+        }
+    } 
